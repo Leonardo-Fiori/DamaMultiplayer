@@ -24,4 +24,4 @@ Safety standards respected. No additional frameworks have been used.
 
 ## Online demo:
 
-You can find an **outdated** online demo [here](www.damamultiplayer.altervista.org), kindly hosted by Altervista.org
+You can find an **outdated** online demo [here](https://damamultiplayer.altervista.org), kindly hosted by Altervista.org
