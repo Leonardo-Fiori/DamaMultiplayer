@@ -5,11 +5,12 @@
 Project realized for the Web Programming and Design class,
 Computer Engineering @ UNIPI, 2016-2017.
 
-Si tratta di una Dama multigiocatore 2D a turni, con matchmaking tramite nickname selezionato tra tutti gli utenti online.
-E' stata implementata anche una v
+An advanced online multiplayer 2D Checkers game, with matchmaking by nickname.
+A basic real time chat system between players have been implemented afterwards.
 
 ## Technologies used in the project:
 
+- AJAX
 - HTML5
 - CSS3
 - JavaScript
@@ -18,7 +19,6 @@ E' stata implementata anche una v
 
 ## Standards
 
-The project fully re
 The project complies with the W3C compatibility standard in all its parts.
 Safety standards respected. No additional frameworks have been used.
 
