@@ -1,0 +1,210 @@
+/* Propietà div di centro pagina generiche */
+.page, .chatpage, .boardpage{
+	border: hidden;
+	background-color: rgba(26, 71, 145, 0.8);
+	top: 25%;
+	left: 0%;
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+	position: absolute;
+	border-width: 3px;
+	border-radius: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* Propietà dei div & elementi specifici di ciascuna pagina */
+.chatpage{
+	top: 8px;
+	left: 8px;
+	word-wrap: break-word;
+	overflow-y:hidden;
+	overflow-x:hidden;
+	width: 400px;
+	height: 600px;
+}
+
+.chatpage input{
+	position: absolute;
+	left: 100px;
+}
+
+.chatpage input[type=button]{
+	position: absolute;
+	left: 260px;
+}
+
+.chatpage h1{
+	top: 100px;
+}
+
+.boardpage{
+	height: 770px;
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.buttonaside{
+	margin: 10px;
+	margin-right: 4px;
+}
+
+.textinput{
+	margin: 10px;
+	text-align: center;
+}
+
+.damiera{
+	display: inline-block;
+	width: 535px;
+	height: 550px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.riga{
+	display: inline-block;
+	width: 528px;
+	height: 66px;
+	padding: 0;
+	margin: 0;
+}
+
+.casella{
+	display: inline;
+	width: 66px;
+	height: 66px;
+	padding: 0;
+	margin: 0;
+}
+
+.riga img{
+	display: inline;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+/* Propietà generiche degli specifici elementi */
+body{
+	color: white;
+	background-color: #f2d587;
+	font-family: "Verdana", Arial, Sans-serif;
+	background-image: url("./img/wallpapertileable.jpg");
+	background-repeat: repeat;
+}
+
+a{
+	color: #A0B4B4
+}
+
+td{
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto;
+    width: auto;
+	margin-top: auto;
+	border: hidden;
+	border-radius: 10px;
+}
+
+/* Propietà di elementi con id specifici */
+#playfield{
+	border: hidden;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	float: left;
+	position: relative;
+	margin: auto;
+	top: 290px;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#signin{
+	text-align: center;
+	margin: auto;
+    width: auto;
+	margin-top: 20px;
+}
+
+#title{
+	text-align: center;
+	font-size: 320%;
+	margin-bottom: 1px;
+	margin-top: 1px;
+    width: 100%;
+}
+
+#subtitle{
+	text-align: center;
+	font-size: 120%;
+	margin: auto;
+	margin-bottom: 10px;
+    width: 100%;
+}
+
+#error{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+}
+
+#matchmaker{
+	text-align: center;
+}
+
+#userlist{
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+    width: 50%;
+}
+
+#matchinfo p{
+	margin: 1px;
+	padding: 1px;
+}
+
+#matchinfo{
+	top: 10px;
+	position: relative;
+	clear: both;
+}
+
+/* Propietà del webkit, non standard */
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.page:hover{
+	top: 200px;
+}
+
+.page{
+    -webkit-transition: top 1s; /* Safari */
+    transition: top 1s;
+}
+
+.casella{
+    -webkit-transition: border-style 1s, opacity 0.5s; /* Safari */
+    transition: border-style 1s, opacity 0.5s;
+}
+
+.casella:hover{
+	opacity: 0.5;
+}
