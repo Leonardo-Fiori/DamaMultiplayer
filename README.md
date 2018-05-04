@@ -25,3 +25,8 @@ Safety standards respected. No additional frameworks have been used.
 ## Online demo:
 
 You can find an **outdated** online demo [here](https://damamultiplayer.altervista.org), kindly hosted by Altervista.org
+
+## License:
+
+You can find more info in the LICENSE file.
+If you use any part of this project please then give credits to the author (me).
