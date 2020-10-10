@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Project realized for the Web Programming and Design class,
+Project I made for the Web Programming and Design class,
 Computer Engineering @ UNIPI, 2016-2017.
 
 An advanced online multiplayer 2D Checkers game, with matchmaking by nickname.
